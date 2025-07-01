@@ -7,39 +7,16 @@
   },
   "package": {
     "productName": "Advanced Drum Machine",
-    "version": "1.0.0"
+    "version": "0.1.0"
   },
   "tauri": {
-    "bundle": {
-      "active": true,
-      "targets": ["dmg"],
-      "identifier": "com.tuempresa.advdrummachine",
-      "icon": ["icons/icon.icns"],
-      "resources": [],
-      "category": "Music"
-    },
     "windows": [
       {
-        "label": "main",
-        "url": "index.html",
         "title": "Advanced Drum Machine",
-        "width": 1240,
-        "height": 820,
-        "minWidth": 900,
-        "minHeight": 650,
-        "resizable": true,
-        "fullscreen": false,
-        "center": true
+        "width": 1200,
+        "height": 800,
+        "resizable": true
       }
-    ],
-    "security": {
-      "csp": null
-    },
-    "updater": {
-      "active": false
-    },
-    "allowlist": {
-      "all": true
-    }
+    ]
   }
 }
